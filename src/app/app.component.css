@@ -1,0 +1,15 @@
+
+.example-chart{
+    display: flex;
+}
+
+.ngx-pie .chart-wrapper path:hover {
+    cursor: pointer;
+    transform-origin: center;
+    transform: scale(1.05);
+}
+
+.ngx-donut .chart-wrapper path:hover {
+    cursor: pointer;
+    stroke-width: 55px;
+}

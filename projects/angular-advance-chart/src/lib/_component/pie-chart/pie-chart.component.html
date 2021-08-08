@@ -1,0 +1,11 @@
+<div class="chart-view ngx-pie">
+  <svg class="chart-wrapper" [ngStyle]="{'height': chartView[0],'width': chartView[1]}">
+    <path #el class="pie-chart-path" chartTooltip tooltip={{item.name}} (click)="getItemClicked(item)" *ngFor="let item of processedData; let i=index" />
+  </svg>
+  <div class="legend" *ngIf="chartOptions.showLegend">
+    <h4>{{chartOptions.legendTitle +' : '+  totalSum}}</h4>
+    <div class="legend-item" *ngFor="let item of legendData; let i=index">
+      <div class="legend-item-colour" [ngStyle]="{'background': item.color}"></div><span class="legend-item-name" >{{item.name}}</span><span class="legend-item-value" >{{item.value}}</span>
+    </div>
+  </div>
+</div>

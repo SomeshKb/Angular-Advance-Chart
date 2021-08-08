@@ -1,0 +1,30 @@
+{
+  "name": "angular-advance-chart",
+  "version": "0.0.1",
+  "description": "Angular Advance Chart provides chart solution for Angular.Currently supports Bar, Pie and Donut chart",
+  "author": "Somesh Kumar Bhaskar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SomeshKb/angular-advance-chart"
+  },
+  "bugs": {
+    "url": "https://github.com/SomeshKb/angular-advance-chart/issues"
+  },
+  "keywords": [
+    "angular",
+    "angular9",
+    "typescript",
+    "chart",
+    "ng-chart",
+    "typescript",
+    "angular-charts",
+    "angular-advance-chart"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^9.1.13",
+    "@angular/core": "^9.1.13"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
